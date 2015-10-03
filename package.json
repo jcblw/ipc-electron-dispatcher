@@ -1,8 +1,8 @@
 {
   "name": "ipc-electron-dispatcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A flux dispatcher that talks through the process barrier for electron apps using ipc",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/jcblw/ipc-electron-dispatcher.git"
