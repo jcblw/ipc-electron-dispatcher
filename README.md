@@ -1,6 +1,6 @@
 # IPC Electron Dispatcher
 
-This is just the [flux](https://facebook.github.io/flux/docs/dispatcher.html) wrapped with a small amount of code to allow it to speak to both the renderer process as well as the main process.
+This is just the [flux](https://facebook.github.io/flux/docs/dispatcher.html) dispatcher wrapped with a small amount of code to allow it to speak to both the renderer process as well as the main process.
 
 [![Build Status](https://travis-ci.org/jcblw/ipc-electron-dispatcher.svg?branch=master)](https://travis-ci.org/jcblw/ipc-electron-dispatcher)
 
