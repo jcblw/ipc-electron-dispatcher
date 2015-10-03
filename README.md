@@ -25,3 +25,7 @@ Now you may require/register/dispatch from either the main process or the render
 > Since the dispatchers are in different processes they will have different data sets for registered callbacks
 
 Patches welcome ^^ :smile:
+
+## Contributing
+
+Right now the only two things are `src` files are the main source file and get compiled into the `lib` dir using `npm run build`. And we use [standardjs](http://standardjs.com/), so by running `npm test` you can test if you code is compliant.
