@@ -19,7 +19,7 @@ class IPCDispatcher extends Dispatcher {
     this.senders = [ipc]
     ipc.on(`${this.prefix}${processAction}`, (event, action) => {
       if (!isRenderer) {
-        this.sender = [event.sender]
+        this.senders = [event.sender]
       } else {
         action = event
       }
