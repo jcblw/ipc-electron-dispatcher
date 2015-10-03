@@ -1,0 +1,20 @@
+{
+  "name": "ipc-electron-dispatcher",
+  "version": "0.0.1",
+  "description": "A flux dispatcher that talks through the process barrier for electron apps using ipc",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard src",
+    "build": "babel src --out-dir lib",
+    "watch": "babel src --out-dir lib --watch"
+  },
+  "author": "Jacob Lowe",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "is-electron-renderer": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
