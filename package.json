@@ -15,11 +15,11 @@
   "author": "Jacob Lowe",
   "license": "ISC",
   "dependencies": {
-    "flux": "^2.1.1",
+    "flux": "^3.1.2",
     "is-electron-renderer": "^2.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.23",
-    "standard": "^5.3.1"
+    "babel": "^6.23.0",
+    "standard": "^10.0.2"
   }
 }

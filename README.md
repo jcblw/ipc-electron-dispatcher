@@ -1,5 +1,7 @@
 # IPC Electron Dispatcher
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/ipc-electron-dispatcher.svg)](https://greenkeeper.io/)
+
 This is just the [flux](https://facebook.github.io/flux/docs/dispatcher.html) dispatcher wrapped with a small amount of code to allow it to speak to both the renderer process as well as the main process of a [Electron](http://electron.atom.io/) app.
 
 [![Build Status](https://travis-ci.org/jcblw/ipc-electron-dispatcher.svg?branch=master)](https://travis-ci.org/jcblw/ipc-electron-dispatcher)
